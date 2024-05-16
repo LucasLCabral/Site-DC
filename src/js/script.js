@@ -3,7 +3,7 @@ function contador(){
     let valor1 =0
 
     let tempo1 = setInterval(()=>{
-        valor1 +=1;
+        valor1 +=2;
         contador1.innerHTML = `+ ${valor1}`
 
         if(valor1 ==1934){
@@ -16,9 +16,9 @@ function contador(){
 
     let tempo2 = setInterval(()=>{
         valor2 +=1;
-        contador1.innerHTML = `+ ${valor2}`
+        contador2.innerHTML = `+ ${valor2}`
 
-        if(valor2 ==5000){
+        if(valor2 ==450){
             clearInterval(tempo2)
         }
     })
@@ -28,11 +28,12 @@ function contador(){
 
     let tempo3 = setInterval(()=>{
         valor3 +=1;
-        contador1.innerHTML = `+ ${valor3}`
+        contador3.innerHTML = `+ ${valor3}`
 
-        if(valor3 ==13){
+        if(valor3 ==100){
             clearInterval(tempo3)
         }
     })
 
 }
+contador()
