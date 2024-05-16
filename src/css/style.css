@@ -13,7 +13,7 @@ header{
     background-color: white;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 0 30px #93c6fc;
+    box-shadow: 0 0 8px #d1d1d1;
 }
 
 .logo img{
@@ -62,11 +62,14 @@ header input{
 }
 
 #banner{
-    width: 100%;
-    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 350px;
 }
 
 #imgBanner{
+    border-radius: 20px;
     width: 100%;
     height: 500px;
 }
