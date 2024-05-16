@@ -48,3 +48,4 @@ function contador(){
             clearInterval(tempo3)
         }
     })
+}
