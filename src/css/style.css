@@ -60,3 +60,13 @@ header input{
     transform: scale(1.05);
     color: var(--color-1);
 }
+
+#banner{
+    width: 100%;
+    height: 400px;
+}
+
+#imgBanner{
+    width: 100%;
+    height: 500px;
+}
