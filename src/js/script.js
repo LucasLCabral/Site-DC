@@ -12,6 +12,9 @@ function slideShow(){
 
     setTimeout('slideShow()', time);
 }
+
+slideShow();
+
 function contador(){
     const contador1 = document.getElementById("contador1")
     let valor1 =0
